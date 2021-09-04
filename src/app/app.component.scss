@@ -1,0 +1,81 @@
+:host{
+
+    p{
+        color: palevioletred;
+        font-family: 'Dancing Script', cursive;
+        font-size: 20px;
+    }
+
+    input, input:focus, span{
+        font-size: 20px;
+        font-family: 'Dancing Script', cursive;
+        color: #E54F6E;
+        border-color: #EECBFF;
+        background-color: #EECBFF;
+        outline:0;
+        width: 100%;
+    }
+
+    .texto{
+        font-size: 20px;
+        font-family: 'Dancing Script', cursive;
+        color: #E54F6E;
+        border-color: transparent;
+        background-color: transparent;
+        outline:0;
+        width: 100%;
+    }
+
+
+    .column {
+        float: left;
+        max-width: 33%;
+        //width: 33%;
+        white-space:pre-wrap;
+        text-align: justify;
+
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+      
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .fade-in-image {
+        animation: fadeIn 5s;
+        -webkit-animation: fadeIn 5s;
+        -moz-animation: fadeIn 5s;
+        -o-animation: fadeIn 5s;
+        -ms-animation: fadeIn 5s;
+      }
+      @keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-moz-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-webkit-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-o-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-ms-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+}
